@@ -1,0 +1,22 @@
+.contenedor {
+  width: 500px;
+  height: 450px;
+  background-image: url(/assets/img/firmbee-com-dAmHWsRYP9c-unsplash.jpg);
+  background-size: 500px 350px;
+  background-repeat: no-repeat;
+  color: rgba(240, 228, 215, 0.806);
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.chart {
+  width: 600px;
+  height: 800px;
+  text-align: center;
+}

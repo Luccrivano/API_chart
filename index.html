@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coversor Divisas</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Conversor de Divisas</h1>
+        <p>Pesos Chilenos</p>
+        <input id="moneda"></input>
+        <p>Divisa a Convertir:</p>
+        <select id="btnSeleccion" value="Ingrese moneda">
+            <option value="uf">UF</option>
+            <option Value="dolar">DOLAR</option>
+            <option Value="euro">Euro</option>
+            <option Value="utm">UTM</option>
+        </select>
+    
+        <button id="btnconvertir" >Conversion</button>
+        <p><span id="resultado">TOTAL:</span></p>
+                
+    </div>
+    
+    <h1>Últimos Valores</h1>
+    <div class="grafica">
+    <canvas id="myChart"></canvas>
+    </div>
+    
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
